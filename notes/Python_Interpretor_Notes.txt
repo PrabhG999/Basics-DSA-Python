@@ -1,0 +1,66 @@
+The interpreter in python can be used to perform functions like math
+as In console.
+Example -
+2019- 1991
+28
+2*32
+64
+2**23
+8388608
+2**32-1
+4294967295
+
+Dynamic typing - Means data types and variables are defined at runtime
+example =
+x=2 no need to right int
+x = 2.1 (No need to write float)
+x = 'Two' (No need to write String)  (Comparing the dynamic typing to java)
+
+
+
+-> A NONE in python is Null
+
+Arrays are diff in python , they are called as lists.
+List type is hybrid .
+
+Covered how a list is worked in python , dynamics of it - Path - Arrays-Lists/Lists_1/Lists_1.py
+
+
+NOTE - Python treat all the data types That can be indexed.
+strings Example
+s = 'π = 3.14' --------- value of PI is getting stored in a string object called S.
+len(s) is going to tell me the lenght of the String
+example from console -
+s = 'pi= 3.14'
+len(s)
+8
+
+example -
+digits = '0123456789'
+digits[3]
+'3'
+len(digits)
+10
+
+NOTE - “Sequence data types can be concatenated, multiplied, searched, and enumerated.”
+
+Examples
+
+[1,2,3] + ['a','b']
+[1, 2, 3, 'a', 'b']
+
+'123' *7
+'123123123123123123123'
+
+3 in [1,2,3]
+True
+
+“elm' in ['Elm', 'Asp', 'Oak']”
+
+'elm' in ['Elm', 'Asp', 'Oak']
+False
+'Elm' in ['Elm', 'Asp', 'Oak']
+True
+
+“The range() and enumerate() functions actually create iterators, which are complex data types that get called in each loop iteration to get the next value of the sequence.”
+
