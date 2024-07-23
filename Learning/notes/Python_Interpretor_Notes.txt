@@ -64,3 +64,17 @@ True
 
 “The range() and enumerate() functions actually create iterators, which are complex data types that get called in each loop iteration to get the next value of the sequence.”
 
+------------
+Importing stuff in pyhton is important , as in you dont need dependnency injection to make stuff work or constructor
+
+
+Talking about try catch statments in python
+
+
+“try:
+    long_running_function()
+except KeyboardInterrupt:
+    print('Keyboard interrupted long running function')
+except IndexError:
+    print('Index out of range during long running function')”
+

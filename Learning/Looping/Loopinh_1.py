@@ -18,13 +18,12 @@ print('wightedSum', weightedSum)
 print('wightedSum_1', wightedSum_1)"""
 
 # example to use Enumeration() function
-for i, h in enumerate(height):
+"""for i, h in enumerate(height):
     weightedSum += i * h
     print('weighted sum per Itteration', weightedSum,
           'Value of i per Itteration', i,
           'Value of h per itterration', h)
 
-    """"
-    0+= 1*5 -> and so on (observe the above print statments)
-    """
-print("Total ", weightedSum)
+print("Total ", weightedSum)"""
+
+
