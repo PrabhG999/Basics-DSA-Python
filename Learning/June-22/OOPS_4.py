@@ -3,7 +3,7 @@
 Question: Create a base class Shape with a method area. Create two derived classes Rectangle and Circle that implement the area method. Use polymorphism to calculate the area of different shapes.
 
 Hint: Use the math module for calculating the area of a circle."""
-import math
+import math as m
 
 
 class Shape:
@@ -27,7 +27,7 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return math.pi * self.radius * self.radius
+        return m.pi * self.radius * self.radius
 
 
 circle = Circle(23)
